@@ -10,8 +10,8 @@ $(document).ready(function(){
     }
   });
   
-  if(!cambio){
-    $('.nav li:first').addClass("active");
+  if(!cambio){  //si cambio es falso asigna la clase active al primer li
+    $('nav ul li:first').addClass("active");
   }
   
 });
