@@ -5,8 +5,8 @@ $(document).ready(function(){
 
   $('nav ul li a').each(function(index) {
     if(this.href.trim() == window.location){
-    $(this).parent().addClass("active");
-    cambio = true;
+      $(this).parent().addClass("active");
+      cambio = true;
     }
   });
   
