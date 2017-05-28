@@ -6,7 +6,6 @@ $(document).ready(function(){
   $('nav ul li a').each(function(index) {
     if(this.href.trim() == window.location){
     $(this).parent().addClass("active");
-    $(this).closest('.dropdown').addClass("active");
     cambio = true;
     }
   });
